@@ -4,10 +4,10 @@
 #
 
 config EXAMPLES_TINYCBOR_TEST
-	tristate "\"Tinycbor_test, World!\" example"
+	tristate "TinyCBOR Test App"
 	default n
 	---help---
-		Enable the \"Tinycbor_test, World!\" example
+		Enable the TinyCBOR Test App
 
 if EXAMPLES_TINYCBOR_TEST
 
@@ -19,11 +19,11 @@ config EXAMPLES_TINYCBOR_TEST_PROGNAME
 		program is installed.
 
 config EXAMPLES_TINYCBOR_TEST_PRIORITY
-	int "Tinycbor_test task priority"
+	int "TinyCBOR Test App task priority"
 	default 100
 
 config EXAMPLES_TINYCBOR_TEST_STACKSIZE
-	int "Tinycbor_test stack size"
+	int "TinyCBOR Test App stack size"
 	default DEFAULT_TASK_STACKSIZE
 
 endif

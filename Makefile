@@ -20,14 +20,14 @@
 
 include $(APPDIR)/Make.defs
 
-# Tinycbor_test, World! built-in application info
+# TinyCBOR Test application info
 
 PROGNAME  = $(CONFIG_EXAMPLES_TINYCBOR_TEST_PROGNAME)
 PRIORITY  = $(CONFIG_EXAMPLES_TINYCBOR_TEST_PRIORITY)
 STACKSIZE = $(CONFIG_EXAMPLES_TINYCBOR_TEST_STACKSIZE)
 MODULE    = $(CONFIG_EXAMPLES_TINYCBOR_TEST)
 
-# Tinycbor_test, World! Example
+# TinyCBOR Test source files
 
 MAINSRC = tinycbor_test_main.c
 
