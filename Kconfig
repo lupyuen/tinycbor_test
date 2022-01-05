@@ -3,27 +3,27 @@
 # see the file kconfig-language.txt in the NuttX tools repository.
 #
 
-config EXAMPLES_SX1262_TEST
-	tristate "\"Sx1262_test, World!\" example"
+config EXAMPLES_TINYCBOR_TEST
+	tristate "\"Tinycbor_test, World!\" example"
 	default n
 	---help---
-		Enable the \"Sx1262_test, World!\" example
+		Enable the \"Tinycbor_test, World!\" example
 
-if EXAMPLES_SX1262_TEST
+if EXAMPLES_TINYCBOR_TEST
 
-config EXAMPLES_SX1262_TEST_PROGNAME
+config EXAMPLES_TINYCBOR_TEST_PROGNAME
 	string "Program name"
-	default "sx1262_test"
+	default "tinycbor_test"
 	---help---
 		This is the name of the program that will be used when the NSH ELF
 		program is installed.
 
-config EXAMPLES_SX1262_TEST_PRIORITY
-	int "Sx1262_test task priority"
+config EXAMPLES_TINYCBOR_TEST_PRIORITY
+	int "Tinycbor_test task priority"
 	default 100
 
-config EXAMPLES_SX1262_TEST_STACKSIZE
-	int "Sx1262_test stack size"
+config EXAMPLES_TINYCBOR_TEST_STACKSIZE
+	int "Tinycbor_test stack size"
 	default DEFAULT_TASK_STACKSIZE
 
 endif
