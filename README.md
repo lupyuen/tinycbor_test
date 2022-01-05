@@ -6,6 +6,10 @@ Read the articles...
 
 -   ["LoRaWAN on Apache NuttX OS"](https://lupyuen.github.io/articles/lorawan3)
 
+This repo depends on...
+
+-   [lupyuen2/tinycbor-nuttx](https://github.com/lupyuen2/tinycbor-nuttx)
+
 To add this repo to your NuttX project...
 
 ```bash
