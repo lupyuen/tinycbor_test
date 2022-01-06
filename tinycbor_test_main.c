@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include "../libs/libtinycbor/src/cbor.h"     //  For Tiny CBOR Library
+#include "../libs/libtinycbor/src/cbor.h"  //  For TinyCBOR Library
 
 static void test_cbor(void);
 static void test_cbor2(void);
